@@ -29,9 +29,4 @@
              :dev {:dependencies [[midje "1.7.0"]]}}
   :jvm-opts ~(vec (map (fn [[p v]] (str "-D" (name p) "=" v))
                        {:java.awt.headless "true"}))
-  :deploy-repositories [["releases" {:url "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-                                     :creds :gpg}
-                         "snapshots" {:url "https://oss.sonatype.org/content/repositories/snapshots/"
-                                      :creds :gpg}]]
-  ;; :jvm-opts ["-agentpath:/Applications/YourKit_Java_Profiler_2014_build_14112.app/Contents/Resources/bin/mac/libyjpagent.jnilib=tracing,onexit=snapshot,delay=0"])
   )
