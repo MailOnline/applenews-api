@@ -1,4 +1,4 @@
-(defproject mol/applenews-api "1.1.2"
+(defproject mol/applenews-api "1.1.3-SNAPSHOT"
   :description "Java/Clojure client for the Apple News REST api (https://developer.apple.com/go/?id=news-api-ref)"
   :url "https://github.com/reborg/applenews-api"
   :license {:name "Eclipse Public License - v 1.0"
